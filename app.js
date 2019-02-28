@@ -1,19 +1,11 @@
 console.log('The calculator is loaded and ready.');
+// function calculateFuelToOffload() {
+//     var totalDistanceToTravel = prompt('What is the total distance you wish to travel, in kilometers? Enter a number.');
+//     var averageLitersOverHundred = prompt('What is the average fuel consumption of your ship, in liters? Enter a number.');
+//     var tankCapacity = prompt('What is the total capacity of your fuel tank? Enter a number.');
+//     var requiredFuel = totalDistanceToTravel * (averageLitersOverHundred / 100);
+//     var fuelToOffload = tankCapacity - requiredFuel;
+//     alert('Necessary amount of fuel to make the trip: ' + requiredFuel + ' L\n' + 'Amount of fuel you need to offload: ' + fuelToOffload + ' L');
+// }
 
-// Things we need to figure out:
-  // fuelToOffload:
-    // The amount we will offload to get below the weight limit, but still be able to fly home.
-    // fuelToOffload = tankCapacity - requiredFuel
-  // tankCapacity: Maximum capacity of the shuttle's tank.
-  // requiredFuel:
-    // Minimum fuel needed to get back to Earth.
-    // requiredFuel = totalDistanceToTravel * (averageLitersOverHundred / 100)
-
-function calculateFuelToOffload(totalDistanceToTravel, averageLitersOverHundred, tankCapacity) {
-  // Step 1: Calculate required fuel.
-  var requiredFuel = totalDistanceToTravel * (averageLitersOverHundred / 100);
-  console.log("Required fuel: " + requiredFuel + ' L');
-  // Step 2: Calculate fuel to offload.
-  var fuelToOffload = tankCapacity - requiredFuel;
-  console.log("Fuel to offload: " + fuelToOffload + ' L');
-}
+// calculateFuelToOffload();
